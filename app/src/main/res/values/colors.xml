@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+   <color name="colorAccent">#245178</color>
+    <color name="colortext">#e1e5ee</color>
+    <color name="colordevider">#cfc391</color>
+    <color name="signintext">#d4ccae</color>
+    <color name="bg">#3b7fbe</color>
+    <color name="signinbg">#201886</color>
+    <color name="signupbg">#2e82ba</color>
+    <color name="rect">#e2deb0</color>
+    <color name="bg1">#79b5ec</color>
+    <color name="bg2">#104779</color>
+    <color name="rect2">#d1ca78</color>
+    <color name="rect3">#87e97e</color>
+
+</resources>

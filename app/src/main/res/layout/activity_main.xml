@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    tools:context="com.ayushi.user.loginfirebase.MainActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/chat1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <com.ayushi.user.loginfirebase.customfonts.MyTextView
+        android:id="@+id/signin"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="21dp"
+        android:textColor="@color/colortext"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+   <View
+       android:layout_width="1dp"
+       android:layout_height="40dp"
+       android:gravity="center"
+       android:background="@color/colordevider"
+       android:layout_marginBottom="12dp"
+       android:layout_marginTop="22dp"
+
+       />
+    <com.ayushi.user.loginfirebase.customfonts.MyTextView
+        android:id="@+id/signup"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="21dp"
+        android:textColor="@color/colortext"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+</LinearLayout>
+</LinearLayout>
